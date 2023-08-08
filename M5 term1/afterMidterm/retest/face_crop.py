@@ -14,7 +14,7 @@ while (cap.isOpened()):
             face_detect = face_cascde.detectMultiScale(gray_cap)
             for (x, y, w, h) in face_detect: 
                   cv.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),thickness=2)
-                  
+
                   frame_size = (w, h)
 
                   crop_img = frame[y:y+h, x:x+w]
@@ -24,7 +24,7 @@ while (cap.isOpened()):
 
             cv.imshow("face detect",frame)
 
-            
+            # not done yet
 
             if cv.waitKey(1) & 0xFF == ord("q"):
                   break
