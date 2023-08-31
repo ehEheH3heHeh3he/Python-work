@@ -20,7 +20,7 @@ def draw_boundary(img,text) :
 
 def detect(img,img_id):
     img,xywh = draw_boundary(img,'face')
-    id = 1
+    id = 2
     if len(xywh) == 4:
         result = img[xywh[1]:xywh[1]+xywh[3],xywh[0]:xywh[0]+xywh[2]]
         create_dataset(result,id,img_id)
