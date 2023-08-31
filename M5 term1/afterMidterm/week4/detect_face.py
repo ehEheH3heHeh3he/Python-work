@@ -11,10 +11,20 @@ def draw_boundary(img,clf):
             cv2.rectangle(img, (x,y), (x+w, y+ h), (0,255,0),5) 
             cv2.rectangle(img,(x,y-50),(x+w,y),(0,0,255), -1)
             id, con = clf.predict(gray_img[y:y+h,x:x+w])
-            if con <= 50 :
-                  cv2.putText(img, "tanapoom", (x+10, y-10), cv2. FONT_HERSHEY_SIMPLEX, 1, (255,255, 255), 3)
-            else :
-                  cv2.putText(img, "unknow", (x+10, y-10), cv2. FONT_HERSHEY_SIMPLEX, 2, (255,255, 255), 3)
+            if con <= 60 and id == 1:
+                     cv2.putText(img, "Next", (x+10, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 3) 
+              
+            elif con <= 60 and id == 2:
+                     cv2.putText(img, "P1", (x+10, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 3)
+              
+            elif con <= 60 and id == 3:
+                     cv2.putText(img, "P2", (x+10, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 3)
+              
+            elif con <= 60 and id == 4:
+                     cv2.putText(img, "P3", (x+10, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 3)
+              
+            else: 
+                     cv2.putText(img, "unknow", (x-10, y-10), cv2.FONT_HERSHEY_COMPLEX, 2, (255, 255, 255), 3)
             show_con ="{0}%".format(round(100-con))
             cv2.rectangle(img, (x+10,y+h+10), (x+w,y+h+50), (255,0,255), -1)
             cv2.putText(img, show_con, (x+10,y+h+40), cv2.FONT_HERSHEY_SIMPLEX,0.8, (255,255,255), 2) 
