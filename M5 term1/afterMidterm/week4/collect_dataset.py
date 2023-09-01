@@ -1,7 +1,7 @@
 import cv2
 
 # face detection
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 face_cascde = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
@@ -20,7 +20,7 @@ def draw_boundary(img,text) :
 
 def detect(img,img_id):
     img,xywh = draw_boundary(img,'face')
-    id = 2
+    id = 1
     if len(xywh) == 4:
         result = img[xywh[1]:xywh[1]+xywh[3],xywh[0]:xywh[0]+xywh[2]]
         create_dataset(result,id,img_id)
