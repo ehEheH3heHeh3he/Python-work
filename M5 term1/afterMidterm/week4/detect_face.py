@@ -22,7 +22,7 @@ def draw_boundary(img,clf):
               
             elif con <= 65 and id == 4:
                      cv2.putText(img, "Mint", (x+10, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 3)
-              
+
             else: 
                      cv2.putText(img, "unknow", (x-10, y-10), cv2.FONT_HERSHEY_COMPLEX, 2, (255, 255, 255), 3)
             show_con ="{0}%".format(round(100-con))
