@@ -4,8 +4,15 @@ from discord.ext import commands
 table = [1148506462704910386,1148505332809732127,1148506620054229042]
         #role channel id, table 1 channel id, table 2 channel id
         
-TK = ''
-queue = []
+TK = 'ODU2NDY4MTc2NTU1NjA2MDE2.GR6zfX.CegrYwjhxGoezUr8bAX4rMXuVy6--T8Io5MfVY'
+class order:
+    def __init__(self, table, order):
+        self.table = table
+        self.order = order
+        
+orders = []
+
+
 menu = ['waffle','latte','americano','matcha','chocolate']
 cancel=False
 null=False
@@ -31,9 +38,16 @@ async def on_message(message: discord.Message):
     if channel.id == 1148509385912500234 and message.content.startswith('move'):
         await message.channel.send('OK!')
         return
-    elif channel.id == 1148509385912500234 and message.content.startswith('check'):
-        await message.channel.send(queue)
+    elif channel.id == 1148509385912500234 and message.content.startswith('queue'):
+        for i in range(len(orders)):
+            await message.channel.send(f'{orders[i].order} Table: {str(orders[i].table)}')
+            # print(orders)
+            # print(orders[i].order, orders[i].table)
         return
+    elif channel.id == 1148509385912500234 and message.content.startswith('send'):
+        orders.pop(0)
+        for i in range(len(orders)):
+            await message.channel.send(f'{orders[i].order} Table: {str(orders[i].table)}')
 
     # assing role
     if channel.id == table[0] and message.content.lower() == ('0001'): # id of role channel
@@ -60,14 +74,14 @@ async def on_message(message: discord.Message):
             for content in menu:
                 if m.content.lower() == content and m.channel == channel:
                     var = content
-                    queue.append(var) # add order to queue
-                    return m.content.lower() == content and m.channel == channel, queue, cancel, null
+                    orders.append(order(1,var)) # add order to queue
+                    return m.content.lower() == content and m.channel == channel, orders, cancel, null
             if m.content.lower() == ('cancel') and m.channel == channel:
                     cancel=True
-                    return m.content.lower() == ('cancel') and m.channel == channel, queue, cancel, null
+                    return m.content.lower() == ('cancel') and m.channel == channel, orders, cancel, null
             else:
                     null = True
-                    return m.content.lower() == ('null') and m.channel ==  channel, queue, cancel, null
+                    return m.content.lower() == ('null') and m.channel ==  channel, orders, cancel, null
                 
         msg = await client.wait_for('message', check=check)
         print(msg)
@@ -81,9 +95,13 @@ async def on_message(message: discord.Message):
             null=False
 
         elif cancel == False and null == False:
-            await message.channel.send(f'{queue}'.format(msg)) # print queue
+            await message.channel.send(f'{orders[-1].order} Table1'.format(msg)) # print queue
             cancel=False
         return
+
+    elif channel.id == table[1] and message.content.lower() == ('queue'):
+        for i in range(len(orders)):
+            await message.channel.send(f'{orders[i].order} Table: {str(orders[i].table)}')
 
         # delete role
     elif channel.id == table[1] and message.content.lower() == ('leave'):
@@ -95,6 +113,7 @@ async def on_message(message: discord.Message):
         async for msg in message.channel.history():
             await msg.delete()
     
+
     # table 2 channel
     if channel.id == table[2] and message.content.lower() == ('menu'):
         # send message
