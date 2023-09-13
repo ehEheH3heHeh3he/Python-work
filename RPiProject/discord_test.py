@@ -13,7 +13,7 @@ class order:
 orders = []
 
 
-menu = ['waffle','latte','americano','matcha','chocolate']
+menu = ['latte','americano','matcha','chocolate','waffle']
 cancel=False
 null=False
 
@@ -85,7 +85,7 @@ async def on_message(message: discord.Message):
 # table 1 channel
     if channel.id == table[1] and message.content.lower() == ('order'):
         
-        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate')
+        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate\n5. Waffle')
         def check(m):
             global cancel,null
             null = False
@@ -137,7 +137,7 @@ async def on_message(message: discord.Message):
 # table 2 channel
     if channel.id == table[2] and message.content.lower() == ('order'):
         
-        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate')
+        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate\n5. Waffle')
         def check(m):
             global cancel,null
             null = False
@@ -187,7 +187,7 @@ async def on_message(message: discord.Message):
 # table 3 channel
     if channel.id == table[3] and message.content.lower() == ('order'):
         
-        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate')
+        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate\n5. Waffle')
         def check(m):
             global cancel,null
             null = False
@@ -237,7 +237,7 @@ async def on_message(message: discord.Message):
 # table 4 channel
     if channel.id == table[4] and message.content.lower() == ('order'):
         
-        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate')
+        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate\n5. Waffle')
         def check(m):
             global cancel,null
             null = False
@@ -288,7 +288,7 @@ async def on_message(message: discord.Message):
 # table 5 channel
     if channel.id == table[5] and message.content.lower() == ('order'):
         
-        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate')
+        await message.channel.send('What do you want?\nMenu :\n1. Latte\n2. Americano\n3. Matcha\n4. Chocolate\n5. Waffle')
         def check(m):
             global cancel,null
             null = False

@@ -1,12 +1,8 @@
 import RPi.GPIO as GPIO
 from RpiMotorLib import RpiMotorLib
 import time
+from threading import Thread
 
-################################
-# RPi and Motor Pre-allocations
-################################
-#
-#define GPIO pins
 D1= 22 # Direction (DIR) GPIO Pin
 S1 = 23 # Step GPIO Pin
 E1 = 24 # enable pin (LOW to enable)
@@ -22,63 +18,70 @@ GPIO.setup(E1,GPIO.OUT) # set enable pin as output
 mymotortest2 = RpiMotorLib.A4988Nema(D2, S2, (21,21,21), "DRV8825")
 GPIO.setup(E2,GPIO.OUT) # set enable pin as output
 
-###########################
-# Actual motor control
-###########################
 
-from threading import Thread
-
-def left_r():
-    print('left1')
-    GPIO.output(E1,GPIO.LOW) # pull enable to low to enable motor
-    mymotortest1.motor_go(False, # True=Clockwise, False=Counter-Clockwise
-                            "Full" , # Step type (Full,Half,1/4,1/8,1/16,1/32)
-                            200, # number of steps
-                            .0005, # step delay [sec]
-                            False, # True = print verbose output 
-                            .05) # initial delay [sec]
+def north_r():
+    GPIO.output(E1,GPIO.LOW) 
+    mymotortest1.motor_go(False,"Full" ,200,.0005,False,.05)
     GPIO.output(E1,GPIO.HIGH)
 
-def left_l():
-    print("left2")
+def north_l():
     GPIO.output(E2,GPIO.LOW)
-    mymotortest2.motor_go(False, # True=Clockwise, False=Counter-Clockwise
-                        "Full" , # Step type (Full,Half,1/4,1/8,1/16,1/32)
-                        200, # number of steps
-                        .0005, # step delay [sec]
-                        False, # True = print verbose output 
-                        .05) # initial delay [sec]
+    mymotortest2.motor_go(True,"Full" ,200,.0005,False,.05)
     GPIO.output(E2,GPIO.HIGH)
-def right_r():
-    print("right1")
-    GPIO.output(E1,GPIO.LOW) # pull enable to low to enable motor
-    mymotortest1.motor_go(True, # True=Clockwise, False=Counter-Clockwise
-                            "Full" , # Step type (Full,Half,1/4,1/8,1/16,1/32)
-                            200, # number of steps
-                            .0005, # step delay [sec]
-                            False, # True = print verbose output 
-                            .05) # initial delay [sec]
+
+def south_r():
+    GPIO.output(E1,GPIO.LOW) 
+    mymotortest1.motor_go(True,"Full" ,200,.0005,False,.05)
     GPIO.output(E1,GPIO.HIGH)
 
-def right_l():
-    print("right2")
+def south_l():
     GPIO.output(E2,GPIO.LOW)
-    mymotortest2.motor_go(True, # True=Clockwise, False=Counter-Clockwise
-                        "Full" , # Step type (Full,Half,1/4,1/8,1/16,1/32)
-                        200, # number of steps
-                        .0005, # step delay [sec]
-                        False, # True = print verbose output 
-                        .05) # initial delay [sec]
+    mymotortest2.motor_go(False,"Full" ,200,.0005,False,.05)
     GPIO.output(E2,GPIO.HIGH)
+
+def west_r():
+    GPIO.output(E1,GPIO.LOW) 
+    mymotortest1.motor_go(False,"Full" ,200,.0005,False,.05)
+    GPIO.output(E1,GPIO.HIGH)
+
+def west_l():
+    GPIO.output(E2,GPIO.LOW)
+    mymotortest2.motor_go(False,"Full" ,200,.0005,False,.05)
+    GPIO.output(E2,GPIO.HIGH)
+
+def east_r():
+    GPIO.output(E1,GPIO.LOW) 
+    mymotortest1.motor_go(True,"Full" ,200,.0005,False,.05)
+    GPIO.output(E1,GPIO.HIGH)
+
+def east_l():
+    GPIO.output(E2,GPIO.LOW)
+    mymotortest2.motor_go(True,"Full" ,200,.0005,False,.05)
+    GPIO.output(E2,GPIO.HIGH)
+
+def down():
+    pass
+
+def up():
+    pass
+
 i =0
 while True :
     order = input("Order: ")
-    if order == "1":
-        Thread(target = left_r).start()
-        Thread(target = left_l).start()
+    if order == "n":
+        Thread(target = north_r).start()
+        Thread(target = north_l).start()
+    
+    elif order == "s":
+        Thread(target = south_r).start()
+        Thread(target = south_l).start()
+
+    elif order == "w":
+        Thread(target = west_r).start()
+        Thread(target = west_l).start()
         
-    elif order == "2":
-        Thread(target = right_r).start()
-        Thread(target = right_l).start()
+    elif order == "e":
+        Thread(target = east_r).start()
+        Thread(target = east_l).start()
 
 GPIO.cleanup() # clear GPIO allocations after run
