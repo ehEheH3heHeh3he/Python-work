@@ -179,7 +179,6 @@ def pp():
     GPIO.output(E2,GPIO.HIGH)
 
 def q():
-    # north 350
     GPIO.output(E1,GPIO.LOW)
     mymotortest1.motor_go(False,"Full" ,450,.0005,False,.05)
     GPIO.output(E1,GPIO.HIGH)
@@ -188,7 +187,6 @@ def r():
     mymotortest2.motor_go(True,"Full" ,450,.0005,False,.05)
     GPIO.output(E2,GPIO.HIGH)
 def s():
-    # west 1000
     GPIO.output(E2,GPIO.LOW)
     mymotortest1.motor_go(False,"Full" ,1000,.0005,False,.05)
     GPIO.output(E2,GPIO.HIGH)
@@ -256,65 +254,65 @@ def start():
     Thread(target = c).start()
     Thread(target = d).start()
 
-def go1():
+def go5():
     Thread(target = g).start()
     Thread(target = h).start()
     time.sleep(.7)
     Thread(target = e).start()
     Thread(target = f).start()
-def back1():
+def back5():
     Thread(target = gg).start()
     Thread(target = hh).start()
     time.sleep(.7)
     Thread(target = ee).start()
     Thread(target = ff).start()
 
-def go2():
+def go1():
     Thread(target = i).start()
     Thread(target = j).start()
     time.sleep(.7)
     Thread(target = k).start()
     Thread(target = l).start()
-def back2():
+def back1():
     Thread(target = ii).start()
     Thread(target = jj).start()
     time.sleep(.7)
     Thread(target = kk).start()
     Thread(target = ll).start()
 
-def go3():
+def go2():
     Thread(target = m).start()
     Thread(target = n).start()
     time.sleep(.8)
     Thread(target = o).start()
     Thread(target = p).start()
-def back3():
+def back2():
     Thread(target = mm).start()
     Thread(target = nn).start()
     time.sleep(1.2)
     Thread(target = oo).start()
     Thread(target = pp).start()
 
-def go4():
+def go3():
     Thread(target = q).start()
     Thread(target = r).start()
     time.sleep(.8)
     Thread(target = s).start()
     Thread(target = t).start()
-def back4():
+def back3():
     Thread(target = qq).start()
     Thread(target = rr).start()
     time.sleep(1.2)
     Thread(target = ss).start()
     Thread(target = tt).start()
 
-def go5():
+def go4():
     Thread(target = u).start()
     Thread(target = v).start()
     time.sleep(1.2)
     Thread(target = w).start()
     Thread(target = x).start()
-def back5():
+def back4():
     Thread(target = uu).start()
     Thread(target = vv).start()
     time.sleep(1.2)
@@ -326,25 +324,25 @@ while True :
     if order == "0":
         start()
     elif order == "1":
-        go1()
-    elif order == "-1":
-        back1()
-    elif order == "2":
-        go2()
-    elif order == "-2":
-        back2()
-    elif order == "3":
-        go3()
-    elif order == "-3":
-        back3()
-    elif order == "4":
-        go4()
-    elif order == "-4":
-        back4()
-    elif order == "5":
         go5()
-    elif order == "-5":
+    elif order == "-1":
         back5()
+    elif order == "2":
+        go1()
+    elif order == "-2":
+        back1()
+    elif order == "3":
+        go2()
+    elif order == "-3":
+        back2()
+    elif order == "4":
+        go3()
+    elif order == "-4":
+        back3()
+    elif order == "5":
+        go4()
+    elif order == "-5":
+        back4()
     elif order == "q":
         break
 

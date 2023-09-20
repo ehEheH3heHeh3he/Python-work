@@ -4,7 +4,7 @@ from discord.ext import commands
 table = [1148506462704910386,1148505332809732127,1148506620054229042,1148507024091521084,1148507121281945643,1148506972954562680]
         #role channel id, table 1 channel id, table 2 channel id, private room 1 channel id, private room 2 channel id, meeting room channel id
         
-TK = ''
+TK = 'ODU2NDY4MTc2NTU1NjA2MDE2.Gpipmd.A5dYROlIx_dDsbzhXODLQFDXLbP-V0wyDCVtAM'
 class order:
     def __init__(self, table, order):
         self.table = table
@@ -43,8 +43,8 @@ async def on_message(message: discord.Message):
             # print(orders[i].order, orders[i].table)
         return
     elif channel.id == 1148509385912500234 and message.content.startswith('send'):
-        # need fix send msg to table
-        # await message.table[int(orders[0].table)].send('Order being delivered')
+        channel = client.get_channel(table[int(orders[0].table)]) ######
+        await channel.send('Order being delivered...\nIf order receive please type "send"') #####
         orders.pop(0)
         for i in range(len(orders)):
             await message.channel.send(f'{orders[i].order} Table: {str(orders[i].table)}')
