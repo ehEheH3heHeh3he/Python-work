@@ -1,5 +1,5 @@
 import cv2
-cap=cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 img_id=0
 id = 1
@@ -46,7 +46,7 @@ while (True):
       frame=detect(frame,img_id,clf)
       cv2.imshow("output camera",frame)
       img_id +=1
-      if cv2.waitKey(1) & 0xFF == ord("g"):
+      if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 cap.release()
 cv2.destoryAllWindows()
