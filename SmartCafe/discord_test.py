@@ -4,7 +4,7 @@ from discord.ext import commands
 table = [1148506462704910386,1148505332809732127,1148506620054229042,1148507024091521084,1148507121281945643,1148506972954562680]
         #role channel id, table 1 channel id, table 2 channel id, private room 1 channel id, private room 2 channel id, meeting room channel id
         
-TK = 'ODU2NDY4MTc2NTU1NjA2MDE2.Gpipmd.A5dYROlIx_dDsbzhXODLQFDXLbP-V0wyDCVtAM'
+TK = ''
 class order:
     def __init__(self, table, order):
         self.table = table
