@@ -3,7 +3,7 @@ from scipy.io import loadmat
 import matplotlib.pyplot as plt
 import numpy as np
 
-mnist_raw = loadmat("mnist-original.mat")
+mnist_raw = loadmat("M5 term2/mnist-original.mat")
 minst = {
     "data" : mnist_raw["data"].T,
     "target" : mnist_raw["label"][0]
