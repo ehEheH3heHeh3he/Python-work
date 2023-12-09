@@ -1,0 +1,32 @@
+import numpy as np
+import pandas as pd
+from scipy.io import loadmat
+from NeuralNetwork import My_nn
+
+mnist_raw = loadmat("mnist-original.mat")
+mnist = {
+    "data" : mnist_raw["data"].T,
+    "target" : mnist_raw["label"][0]
+}
+
+# data = pd.read_csv('train.csv')
+# data = np.array(data)
+
+# save mat to csv
+df = pd.DataFrame(mnist["target"],mnist["data"])
+df.to_csv('train.csv')
+
+
+# m, n = data.shape
+
+# data = data.T
+# Y_train = data[0]
+# X_train = data[1:n]
+# X_train = X_train / 255.
+
+# nn = My_nn()
+# nn.fit(X_train, Y_train, 0.1, 500)
+
+for i in range(20):
+    index = np.random.randint(1, m)
+    nn.test_train(index , X_train, Y_train)
