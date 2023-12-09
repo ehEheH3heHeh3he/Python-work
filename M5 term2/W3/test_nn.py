@@ -9,13 +9,14 @@ mnist = {
     "target" : mnist_raw["label"][0]
 }
 
-# data = pd.read_csv('train.csv')
-# data = np.array(data)
+data = pd.read_csv('train.csv')
+data = np.array(data)
+print (data)
 
-# save mat to csv
-df = pd.DataFrame(mnist["target"],mnist["data"])
-df.to_csv('train.csv')
 
+# changing the shape of mnist the data
+# new_data = mnist.get("data")
+# print(new_data)
 
 # m, n = data.shape
 
@@ -27,6 +28,6 @@ df.to_csv('train.csv')
 # nn = My_nn()
 # nn.fit(X_train, Y_train, 0.1, 500)
 
-for i in range(20):
-    index = np.random.randint(1, m)
-    nn.test_train(index , X_train, Y_train)
+# for i in range(20):
+#     index = np.random.randint(1, m)
+#     nn.test_train(index , X_train, Y_train)
