@@ -30,7 +30,7 @@ X_train = data[1:n]
 X_train = X_train / 255.
 
 nn = My_nn()
-nn.fit(X_train, Y_train, 0.1, 500)
+nn.fit(X_train, Y_train, 0.1, 1000)
 
 for i in range(20):
     index = np.random.randint(1, m)
