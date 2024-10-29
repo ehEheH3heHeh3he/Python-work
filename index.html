@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Video Stream</title>
+    <style>
+        #video-container {
+            width: 640px;
+            height: 480px;
+            overflow: hidden;
+        }
+        #video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <img id="video" src="http://192.168.1.120:6688/snapshot.jpg?" alt="Live Video">
+    </div>
+    
+    <script>
+        // Function to update the image source periodically
+        function updateImage() {
+            var img = document.getElementById('video');
+            img.src = 'http://192.168.1.120:6688/snapshot.jpg?' + new Date().getTime(); // Append timestamp to avoid caching
+        }
+        
+        // Update the image every 500 milliseconds (adjust this as needed)
+        setInterval(updateImage, 400);
+    </script>
+</body>
+</html>
