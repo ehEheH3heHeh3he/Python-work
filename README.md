@@ -4,16 +4,29 @@ This repository contains various Python projects and scripts, organized into fol
 
 ## Folder Structure
 
-- **Folder 1**: [Project or script name]
-  - Description: Briefly explain the purpose of this folder. For example, "Contains scripts for data analysis using Pandas."
+- **Folder 1**: CMKL-CAMP
+  - Description: Contains scripy from my cmkl camp
 
-- **Folder 2**: [Project or script name]
-  - Description: Describe the focus of this folder, like "Machine learning projects, including model training and evaluation."
+- **Folder 2**: CS50-AI
+  - Description: My progress on CS50 AI problem sets
 
-- **Folder 3**: [Project or script name]
-  - Description: Explain the folder's contents, such as "Utility scripts for automating daily tasks."
+- **Folder 3**: M4 term1
+  - Description: Basic python and GUI
 
-## Getting Started
+- **Folder 4**: M4 term2
+  - Description: Basic Artificial intelligence 
+
+- **Folder 5**: M5 term1
+  - Description: Computer vision 
+ 
+- **Folder 6**: M5 term2
+  - Description: Neural Network and Deep learning with and without libary
+ 
+- **Folder 6**: RPi
+  - Description: RaspberryPi Works and Project
+
+
+## TODO
 
 1. Clone the repository:
    ```bash
