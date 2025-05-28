@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Filter</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        form { margin-bottom: 20px; }
+        input, select, button { padding: 6px; margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+<h2>CSV Filter</h2>
+
+<form method="POST" autocomplete="off">
+    <label for="column">Search by:</label>
+    <select name="column" id="column" required>
+        <option value="Brand" {% if selected_column == 'Brand' %}selected{% endif %}>Brand</option>
+        <option value="Project" {% if selected_column == 'Project' %}selected{% endif %}>Project</option>
+        <option value="Location" {% if selected_column == 'Location' %}selected{% endif %}>Location</option>
+    </select>
+
+    <input type="text" name="keyword" id="keyword" placeholder="Enter keyword" value="{{ keyword }}" required autocomplete="off">
+    <button type="submit">Search</button>
+</form>
+
+{% if rows %}
+<table>
+    <thead>
+        <tr>
+            {% for header in headers %}
+                <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in rows %}
+            <tr>
+                {% for item in row %}
+                    <td>{{ item }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p><strong>No results found.</strong></p>
+{% endif %}
+
+</body>
+</html>

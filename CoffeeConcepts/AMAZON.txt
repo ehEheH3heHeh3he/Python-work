@@ -1,0 +1,127 @@
+async function scrapeBranches() {
+  const ddlProvince = document.getElementById('ddlProvince');
+  // Based on the inspected element, the ul has the ID ulPanelRight
+  const ulPanelRight = document.getElementById('ulPanelRight');
+  const allBranchesData = [];
+
+  if (!ddlProvince || !ulPanelRight) {
+    console.error('Required elements (ddlProvince or ulPanelRight) not found. Please ensure these elements are present in the DOM when you run the script.');
+    return null;
+  }
+
+  // Get all province options, excluding the first empty one
+  const provinceOptions = Array.from(ddlProvince.options).filter(opt => opt.value !== '');
+  console.log(`Found ${provinceOptions.length} provinces to process.`);
+
+  // Loop through each province option
+  for (const option of provinceOptions) {
+    const provinceValue = option.value;
+    const provinceName = option.text;
+    console.log(`Selecting province: ${provinceName} (Value: ${provinceValue})`);
+
+    // Set the dropdown value programmatically
+    ddlProvince.value = provinceValue;
+
+    // Manually dispatch a 'change' event to trigger the onchange handler (__doPostBack)
+    // Use new Event('change', { bubbles: true }) for modern browsers
+    const event = new Event('change', { bubbles: true });
+    ddlProvince.dispatchEvent(event);
+
+    // --- Waiting Mechanism ---
+    // Wait until branch elements with class 'branch-list-our' appear or a timeout is reached.
+    // Increased maxWaitTime slightly for potentially slower updates.
+    const maxWaitTime = 15000; // Maximum time to wait for the page to update (15 seconds)
+    const checkInterval = 500; // How often to check for elements (every 500ms)
+    let waitedTime = 0;
+    let branchesFound = false;
+
+    while (waitedTime < maxWaitTime) {
+      const currentBranches = ulPanelRight.querySelectorAll('.branch-list-our');
+      if (currentBranches.length > 0) {
+        branchesFound = true;
+        // Optional: You could also check if the number of branches is different from the previous province's count,
+        // but simply checking for > 0 is a good start.
+        console.log(`Found ${currentBranches.length} branches for ${provinceName}.`);
+        break; // Branches found, stop waiting
+      }
+      // Wait for the checkInterval before the next check
+      await new Promise(resolve => setTimeout(resolve, checkInterval));
+      waitedTime += checkInterval;
+    }
+
+    if (!branchesFound) {
+      console.warn(`Timeout (${maxWaitTime}ms) waiting for branches to load for province: ${provinceName}. Skipping this province.`);
+       // Optionally check one last time in case some loaded just after the loop condition
+       const finalBranches = ulPanelRight.querySelectorAll('.branch-list-our');
+       if (finalBranches.length > 0) {
+          console.log(`Found ${finalBranches.length} branches after timeout check for ${provinceName}.`);
+          branchesFound = true; // Set to true if found, proceed to extraction
+       } else {
+           continue; // Still no branches, move to the next province
+       }
+    }
+     // --- End Waiting Mechanism ---
+
+
+    // Extract data from the loaded branches if found
+    if (branchesFound) {
+        const currentBranches = ulPanelRight.querySelectorAll('.branch-list-our');
+        const provinceBranches = [];
+
+        currentBranches.forEach(branchLi => {
+          const divs = branchLi.querySelectorAll('div');
+          // Assuming the order of divs based on your observation HTML:
+          // 0: Name
+          // 1: Location (City, District, Province)
+          // 2: Latitude
+          // 3: Longitude
+          // 4: Full Text (Name + Phone)
+          if (divs.length >= 5) { // Ensure we have at least the expected number of divs
+            const branchData = {
+              province: provinceName,
+              provinceValue: provinceValue,
+              id: branchLi.id, // Use the li element's ID
+              name: divs[0] ? divs[0].textContent.trim() : '',
+              location: divs[1] ? divs[1].textContent.trim() : '',
+              latitude: divs[2] ? divs[2].textContent.trim() : '',
+              longitude: divs[3] ? divs[3].textContent.trim() : '',
+              fullText: divs[4] ? divs[4].textContent.trim() : ''
+            };
+            provinceBranches.push(branchData);
+          } else {
+            // Log elements with unexpected structure for debugging
+            console.warn(`Skipping branch element due to unexpected structure (expected at least 5 divs, found ${divs.length}):`, branchLi.outerHTML);
+          }
+        });
+
+        // Add the collected branches for this province to the main array
+        allBranchesData.push(...provinceBranches);
+    }
+
+
+    // Optional: Add a small delay between processing provinces to be less aggressive on the server
+    // This can also sometimes help with pacing asynchronous updates
+    // await new Promise(resolve => setTimeout(resolve, 500)); // Wait 500ms
+  }
+
+  console.log('Finished scraping.');
+  console.log(`Total branches found across all provinces: ${allBranchesData.length}`);
+
+  // The allBranchesData array now contains data for all scraped branches.
+  // You can inspect it in the console, or use `copy(allBranchesData)` to copy it to your clipboard.
+
+  return allBranchesData; // Return the final data array
+}
+
+// --- HOW TO RUN THE SCRIPT ---
+// 1. Copy the entire code block above.
+// 2. Paste it into your Chrome DevTools Console and press Enter to define the function.
+// 3. Call the function and use .then() to handle the result when the promise resolves:
+//    scrapeBranches().then(data => {
+//      console.log('Scraped Data:', data);
+//      // Optional: To copy the data to your clipboard (if not too large):
+//      // copy(data);
+//    }).catch(error => {
+//       console.error('An error occurred during scraping:', error);
+//    });
+// --- END HOW TO RUN THE SCRIPT ---
