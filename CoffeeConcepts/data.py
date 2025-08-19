@@ -1,27 +1,26 @@
 import pandas as pd
-import re
-from itertools import zip_longest
+import urllib.parse
 
-# Function to clean a line
-def clean_line(line):
-    stripped = line.strip()
-    if not stripped:
-        return ""
-    return re.sub(r"\s*\(.*?\)", "", stripped)
+def apple_to_google_maps_pin(apple_url):
+    try:
+        parsed = urllib.parse.urlparse(str(apple_url))
+        query_params = urllib.parse.parse_qs(parsed.query)
+        latlon = query_params.get('ll', [''])[0].replace(' ', '')
+        if latlon:
+            return f"https://www.google.com/maps?q={latlon}"
+    except:
+        pass
+    return ''  # Return empty string if anything fails
 
-# Read and clean all files
-with open("data.txt", encoding="utf-8") as f1:
-    col1 = [clean_line(line) for line in f1.readlines()]
+# === Load Excel file with NO HEADER ===
+input_file = 'Inthanin-convert to google map.xlsx'  # 🔁 Replace with your actual filename
+df = pd.read_excel(input_file, header=None)
 
-with open("data2.txt", encoding="utf-8") as f2:
-    col2 = [clean_line(line) for line in f2.readlines()]
+# === Convert Apple Maps URL in column D (index 3) ===
+df[4] = df[3].apply(apple_to_google_maps_pin)  # Column E (index 4)
 
-with open("data3.txt", encoding="utf-8") as f3:
-    col3 = [clean_line(line) for line in f3.readlines()]
+# === Save to new file, also with NO HEADER ===
+output_file = 'converted_output.xlsx'
+df.to_excel(output_file, index=False, header=False)
 
-# Use zip_longest to pad shorter columns with blank entries
-rows = list(zip_longest(col1, col2, col3, fillvalue=""))
-
-# Create DataFrame and export to Excel
-df = pd.DataFrame(rows, columns=["Column1", "Column2", "Column3"])
-df.to_excel("Oh! Juice.xlsx", index=False)
+print(f"✅ Google Maps links written to: {output_file}")

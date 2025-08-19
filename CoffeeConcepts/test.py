@@ -1,5 +1,18 @@
-from google.oauth2 import service_account
-from google.cloud import translate_v2 as translate
+import pandas as pd
 
-credentials = service_account.Credentials.from_service_account_file('/Users/next/Downloads/top-moment-460306-t1-03517f5f6b06.json')
-translate_client = translate.Client(credentials=credentials)
+# Load the Excel file (no header)
+df = pd.read_excel("final_cleaned_province_with_region.xlsx", header=None)
+
+# Loop through rows and clear values that match
+for index, row in df.iterrows():
+    province = row[0]
+    region = row[1]
+
+    if (pd.isna(province) or str(province).strip().lower() == "nan") and region == "Northern":
+        df.at[index, 0] = ""  # Clear province column
+        df.at[index, 1] = ""  # Clear region column
+
+# Save to a new Excel file
+df.to_excel("cleaned_no_false_northern.xlsx", index=False, header=False)
+
+print("✅ Saved to cleaned_no_false_northern.xlsx")

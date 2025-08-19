@@ -21,12 +21,26 @@ def index():
     if request.method == 'POST':
         selected_column = request.form.get('column')
         keyword = request.form.get('keyword', '').lower().replace(' ', '')
-        if selected_column and keyword:
-            col_index = headers.index(selected_column)
-            filtered_rows = [
-                row for row in rows
-                if keyword in row[col_index].lower().replace(' ', '')
-            ]
+
+        # Define mapping from dropdown value to actual CSV header
+        column_mapping = {
+            'Brand': headers[0].strip(),     # You can also hardcode it if needed
+            'Project': headers[1].strip(),
+            'Location': headers[2].strip()
+        }
+
+        if selected_column in column_mapping and keyword:
+            actual_column_name = column_mapping[selected_column]
+            try:
+                col_index = headers.index(actual_column_name)
+                filtered_rows = [
+                    row for row in rows
+                    if col_index < len(row) and keyword in (row[col_index] or '').lower().replace(' ', '')
+                ]
+            except ValueError:
+                filtered_rows = []
+
+
 
     return render_template(
         'index.html',

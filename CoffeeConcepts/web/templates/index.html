@@ -5,10 +5,28 @@
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
         table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
         th { background-color: #f2f2f2; }
         form { margin-bottom: 20px; }
         input, select, button { padding: 6px; margin-right: 10px; }
+
+        .map-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #7dbeff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            white-space: nowrap;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+        .map-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -21,7 +39,7 @@
         <option value="Brand" {% if selected_column == 'Brand' %}selected{% endif %}>Brand</option>
         <option value="Project" {% if selected_column == 'Project' %}selected{% endif %}>Project</option>
         <option value="Location" {% if selected_column == 'Location' %}selected{% endif %}>Location</option>
-    </select>
+    </select>    
 
     <input type="text" name="keyword" id="keyword" placeholder="Enter keyword" value="{{ keyword }}" required autocomplete="off">
     <button type="submit">Search</button>
@@ -31,16 +49,28 @@
 <table>
     <thead>
         <tr>
-            {% for header in headers %}
-                <th>{{ header }}</th>
+            {% for i in range(headers|length) %}
+                {% if i <= 6 %}
+                    <th>{{ headers[i] }}</th>
+                {% endif %}
             {% endfor %}
         </tr>
     </thead>
     <tbody>
         {% for row in rows %}
             <tr>
-                {% for item in row %}
-                    <td>{{ item }}</td>
+                {% for i in range(row|length) %}
+                    {% if i < 6 %}
+                        <td>{{ row[i] }}</td>
+                    {% elif i == 6 %}
+                        <td>
+                            {% if row[i].startswith('http') %}
+                                <a href="{{ row[i] }}" target="_blank" class="map-button">Open in Map</a>
+                            {% else %}
+                                {{ row[i] }}
+                            {% endif %}
+                        </td>
+                    {% endif %}
                 {% endfor %}
             </tr>
         {% endfor %}

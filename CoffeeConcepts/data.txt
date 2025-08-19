@@ -1,10 +1,1212 @@
-Central Ladprao (เซ็นทรัล ลาดพร้าว)
-Delivery (เดลิเวอรี่)
-The Mall Ngamwongwan (เดอะมอลล์ งามวงศ์วาน)
-centralwOrld (เซ็นทรัลเวิลด์)
-The Mall Bangkapi (เดอะมอลล์ บางกะปิ)
-Siam Square One (สยามสแควร์วัน)
-One Bangkok (วัน แบงค็อก)
-The Mall Thapra (เดอะมอลล์ ท่าพระ)
-Major Ratchayothin (เมเจอร์ รัชโยธิน)
-Mega Bangna (เมกาบางนา)
+<div class="space-y-3 mt-3">
+                    
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Q9FzZMH64NezzxCeA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Serm-Mit Tower</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อาคารเสริมมิตรทาวเวอร์ (อโศก)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 061-7744587 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 0.69 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Serm-Mit%20Tower&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=061-7744587&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7412222%2C100.5618889')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/cAvhLtNbAfjUHz25A', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">One Bangkok</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-20.00 <br>เสาร์-อาทิตย์ 9.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น B1 อาคาร Parade อยู่ระหว่าง KFC และ 7-11
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 083-2748841 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 1.93 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=One%20Bangkok&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-20.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%209.00-20.00&amp;tel=083-2748841&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.72816177%2C100.5450944')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/qiyczKxQqhixP3Vh7', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Vanit Place Building 2</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 6.30-15.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อาคารวานิช 2 ถนนเพชรบุรีตัดใหม่
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219419 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 2.13 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Vanit%20Place%20Building%202&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%206.30-15.30&amp;tel=065-5219419&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.74912166%2C100.5482198')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/2W5Ajnw4Djpa1jkXA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">G tower</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 9.00-18.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น G บันไดเลื่อนกลาง
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 080-2930646 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 2.47 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=G%20tower&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%209.00-18.00&amp;tel=080-2930646&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.75684034%2C100.5659543')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/NgZitQKrQDKTiwcG9https://maps.app.goo.gl/Huuijjp6eoxGKUsD6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Fortune Town</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-20.00 <br>เสาร์-อาทิตย์ 8.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 ตรงข้าม Starbucks
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 083-9438930 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 2.71 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Fortune%20Town&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-20.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-20.00&amp;tel=083-9438930&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.75918405%2C100.5648585')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/QXgDPCmXD3V49Txy5', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Central World</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 10.00-22.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 3 โซน Beacon ใกล้กับ KOI the
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219792 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 2.74 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Central%20World&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2010.00-22.00&amp;tel=065-5219792&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.74665874%2C100.5391703')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/PiQohacEUYK4asJU9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">CP Tower Silom</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: CP tower สีลม ชั้น G ตรงข้าม Chester grill
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 062-6190339 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.23 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=CP%20Tower%20Silom&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=062-6190339&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7276667%2C100.5325833')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/MKBKci9fPYrGF6C27', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Makro Sri Ayutthaya</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-20.00 <br>เสาร์-อาทิตย์ 8.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219411 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.27 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Makro%20Sri%20Ayutthaya&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-20.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-20.00&amp;tel=065-5219411&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.75674674%2C100.5411113')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/pZvZUo45vPqCNA7S6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Chamchuri Square</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-19.00 <br>เสาร์-อาทิตย์ 8.00-19.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 อาคารจามจุรีสแควร์ (ข้างธนาคารกรุงศรีฯ)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 064-8607393 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.38 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Chamchuri%20Square&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-19.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-19.00&amp;tel=064-8607393&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.73286981%2C100.5303128')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/xr2LaDxuuoSUDVty8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Samyan Mitrtown</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 10.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 3 บริเวณบันไดเลื่อน หน้าร้านสมใจ
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219413 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.58 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Samyan%20Mitrtown&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2010.00-20.00&amp;tel=065-5219413&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.73386895%2C100.528415')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/fu8YttjaXZcc1C2d6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">MBK Center</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 9.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 6 โซน B ข้างบันไดเลื่อน
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 090-3283342 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.58 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=MBK%20Center&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%209.00-20.00&amp;tel=090-3283342&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.74544855%2C100.5301236')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/RbzNkPNkhTGLqgsb8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Siam Patumwan House</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 2 ติดกับทางเชื่อมไป Siam Discovery
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219791 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.65 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Siam%20Patumwan%20House&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-17.00&amp;tel=065-5219791&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.74759344%2C100.5303105')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/4HA4dMcQss8kw1p86', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Sathorn</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 6.30-15.30 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: สถานีรถไฟฟ้าช่องนนทรี (ปากซอยตลาดละลายทรัพย์)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 097-1626638 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.70 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Sathorn&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%206.30-15.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=097-1626638&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7247222%2C100.529')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://goo.gl/maps/CfdJ8jW98wTuVC969', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Sukhumvit 69</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการ Taisin
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-5035349 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.79 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Sukhumvit%2069&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208%3A00-17%3A00&amp;tel=095-5035349&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7160084686059%2C100.5906018')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/6N6MfNdAj43UvZ558', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">CP Tower 3 Phayathai</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-16.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 2 อาคาร C
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219519 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.88 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=CP%20Tower%203%20Phayathai&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-16.00&amp;tel=065-5219519&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.75718851%2C100.5337647')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/9PMDRhbweeP8S8Mw6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Big C Ratchada</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 9.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 Big C รัชดา ตรงข้ามร้าน Eat Am Are
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 090-3269631 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 3.96 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Big%20C%20Ratchada&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%209.00-21.00&amp;tel=090-3269631&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.76935959%2C100.5713615')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/wTFq2a5vuU2C3Ssg7', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">CW Tower</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 อาคาร CW tower (ข้าง Mitsubishi)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 080-3500309 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 4.05 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=CW%20Tower&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=080-3500309&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.76948758%2C100.573691')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/DKP4qxbcZMtu7u9AA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Saint louis 3</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ฝั่งตรงข้ามวิทยาลัยเทคโนโลยีกิตติบริหารธุรกิจ
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 088-9833367 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 4.75 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Saint%20louis%203&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=088-9833367&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7089167%2C100.5267778')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/svdkB5KeShdsKumTA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Lotus Sukhumvit 50</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-20.00 <br> เสาร์-อาทิตย์ 8.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219790 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 5.36 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Lotus%20Sukhumvit%2050&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-20.00%20%3Cbr%2F%3E%20%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-20.00&amp;tel=065-5219790&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.70526097%2C100.6005066')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/p6Re8dunLynpk2V67', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Ari</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ฝั่งตรงข้าม Noble reform
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 091-8903330 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 5.45 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Ari&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=091-8903330&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7811667%2C100.5444167')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/A5H3v9HU9Do5YGjs8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Muangthaiphatra</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-16.00 <br>เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ตั้งอยู่ข้างธนาคารกรุงศรี
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-8903335 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 6.04 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Muangthaiphatra&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-16.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=095-8903335&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.78788326%2C100.5742597')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/BShdMEhRpV4jGqwv5', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">The Rice</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 07:30-17.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 084-1973947 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 6.30 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=The%20Rice&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2007%3A30-17.30&amp;tel=084-1973947&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.79017044%2C100.5480646')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/XBFQpjq8LL4eAzhi6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Food Stock Pattanakan</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 07:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการ Foodstock พัฒนาการ 32
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219410 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 6.58 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Food%20Stock%20Pattanakan&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2007%3A00-17%3A00&amp;tel=065-5219410&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.72793306%2C100.6219899')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/KNy1sSDVQp2qUEsQ6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Srivara</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อยู่ทางเข้าโรงแรม sc park ฝั่งถนนศรีวรา
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 096-9477291 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 6.96 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Srivara&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208%3A00-17%3A00&amp;tel=096-9477291&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.77279751%2C100.6129192')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Rkeeo51qypUwK8Xg9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Town in Town</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 07:30-16:30 <br>เสาร์-อาทิตย์ 08:30-17:30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อยู่ในโครงการ chill chill in town
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 093-1321588 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 6.96 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Town%20in%20Town&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%2007%3A30-16%3A30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%2008%3A30-17%3A30&amp;tel=093-1321588&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.77282472%2C100.6129365')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/yt9QoH2zVQX3x3zB7', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">True Digital (East)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 8.00-19.00 <br>เสาร์-อาทิตย์ 9.00-19.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 ใต้บันไดเลื่อนขึ้นศูนย์อาหาร lotus’s eatery
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 062-6202586 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 7.68 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=True%20Digital%20(East)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%208.00-19.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%209.00-19.00&amp;tel=062-6202586&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.68600548%2C100.6115802')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/uKMbpnYVtDe46BmQ6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">True Digital (West)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.00-19.00 <br>เสาร์-อาทิตย์ 8.00-19.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 อาคาร True digital park (west)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 083-9974448 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 7.68 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=True%20Digital%20(West)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.00-19.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-19.00&amp;tel=083-9974448&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.68603676%2C100.6116767')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Th4QVYjHx29pGQmq8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">71 Malls</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-16.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการ 71malls ถนนนาคนิวาส
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219482 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 8.85 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=71%20Malls&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-16.00&amp;tel=065-5219482&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.80121022%2C100.607105')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Ep1H86Nx9WjpaDNg8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">The Mall Bangkapi</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: อาทิตย์-พฤหัส 10.00-21.00 <br>ศุกร์-เสาร์/วันหยุด 10.00-21.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น G โซน IT (ติดสระน้ำปลาช่อนอเมซอน)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 096-9178104 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 9.31 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=The%20Mall%20Bangkapi&amp;openHours=%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%A4%E0%B8%AB%E0%B8%B1%E0%B8%AA%2010.00-21.00%20%3Cbr%2F%3E%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C%2F%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%A2%E0%B8%B8%E0%B8%94%2010.00-21.30&amp;tel=096-9178104&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.7652778%2C100.6419167')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/xq1d7Yi75TXddKpe7', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Nakniwat 16</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ซอยนาคนิวาส16
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-7740963 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 9.65 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Nakniwat%2016&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208%3A00-17%3A00&amp;tel=095-7740963&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.8071389%2C100.61125')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/jXPqUVTJmabyRWjx6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">SCB Park Plaza EAST</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 6.30-15.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: SCB สำนักงานใหญ่ อาคาร East
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219786 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.29 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=SCB%20Park%20Plaza%20EAST&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%206.30-15.30&amp;tel=065-5219786&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.82749138%2C100.5659043')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Q3XuHCPJQNoDhCsN8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">SCB Park Plaza WEST</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 6.30-16.30 <br>เสาร์ 7.30-16.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: SCB สำนักงานใหญ่ อาคาร West
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219484 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.35 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=SCB%20Park%20Plaza%20WEST&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%206.30-16.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C%207.30-16.30&amp;tel=065-5219484&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.82810451%2C100.5638235')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/3DSyNiP8fzCWGnKo9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Major Ratchayothin 1</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: หน้า Villa market
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-8943492 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.39 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Major%20Ratchayothin%201&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208%3A00-17%3A00&amp;tel=095-8943492&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.828273%2C100.5675027')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/Kg6YdNd4onVcvqou8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Major Ratchayothin 2</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โซน Avenue ข้างธนาคารกสิกรไทย
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 082-9725073 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.42 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Major%20Ratchayothin%202&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208.00-21.00&amp;tel=082-9725073&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.82860426%2C100.5673307')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/mjDXqzYD57ZH44mo9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Seacon Square Srinakarin</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 10.30-20.00 <br>เสาร์-อาทิตย์ 10.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 2 ฝั่ง Lotus อยู่ข้าง Fitness first
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219521 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.51 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Seacon%20Square%20Srinakarin&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%2010.30-20.00%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%2010.00-20.00&amp;tel=065-5219521&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.6926496%2C100.6484806')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/PjQBgBpPGDVTbGsR8', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Central Bangna</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 9.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น B1 เซนทรัลบางนา (หน้า Tops supermarket)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 090-9589165 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 10.78 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Central%20Bangna&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%209.00-21.00&amp;tel=090-9589165&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.6686667%2C100.63425')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/DLBs8W7SB5Z2rmKn6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">The Mall Ngamwongwan</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: อาทิตย์-พฤหัส 10.00-21.00 <br>ศุกร์-เสาร์/วันหยุด 10.00-21.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น G ติด Tim hortons
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 090-3236829 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 13.58 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=The%20Mall%20Ngamwongwan&amp;openHours=%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%A4%E0%B8%AB%E0%B8%B1%E0%B8%AA%2010.00-21.00%20%3Cbr%2F%3E%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C%2F%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%A2%E0%B8%B8%E0%B8%94%2010.00-21.30&amp;tel=090-3236829&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.85564143%2C100.5419689')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/qTuFM9fXxGSMhsm1A', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Seacon Bang Kae</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 10.00-20.30 <br>เสาร์-อาทิตย์ 10.00-20.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 บริเวณบันไดเลื่อนกลาง
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-3457165 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 13.98 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Seacon%20Bang%20Kae&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%2010.00-20.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%2010.00-20.00&amp;tel=095-3457165&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.71375735%2C100.4339527')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/paSzrmBi5M3Fdpor5', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">The Grand Mall</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อยูู่๋ในโครงการ Grand mall
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-9828597 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 14.50 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=The%20Grand%20Mall&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-17.00&amp;tel=095-9828597&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.71780697%2C100.4284793')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/dq1GTFiGBqdsdoXY9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Ratchaphruek</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.30-16.30 <br>เสาร์-อาทิตย์ 8.30-17.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อยู่ในโครงการ BNN park ราชพฤกษ์
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 082-5895877 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 14.79 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Ratchaphruek&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.30-16.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.30-17.30&amp;tel=082-5895877&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.8120556%2C100.4498611')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/PQxHZ26mapYG6Vbe6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Fashion Island</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 10.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 3 โซนกลางหลังบันไดเลื่อน (ข้าง Swensen’s)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 064-1415857 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 16.23 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Fashion%20Island&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2010.00-21.00&amp;tel=064-1415857&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.82607%2C100.67896')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/MFfjiKTsGyHDr2k96', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">J Park Avenue</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น 1 อาคารจอดรถ J park นนทบุรี
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5201816 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 16.84 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=J%20Park%20Avenue&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208.00-17.00&amp;tel=065-5201816&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.86582839%2C100.4829362')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/9DWyZRGaboF49QkbA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Central Chaengwatthana</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 9.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น G อยู่ข้าง white story
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 083-8367982 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 19.09 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Central%20Chaengwatthana&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%209.00-21.00&amp;tel=083-8367982&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.90369%2C100.528364')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://goo.gl/maps/61iKboGYwZtxN1b29', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Muangthong</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 06:30-15:30 <br> เสาร์-อาทิตย์ 08:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการ popular walk
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-3498539 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 19.48 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Muangthong&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%2006%3A30-15%3A30%20%3Cbr%2F%3E%20%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%2008%3A00-17%3A00&amp;tel=065-3498539&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.9099444%2C100.55225')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/rMQv7qqobcznyR437', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Cosmo Muangthong</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 10.00-21.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น2 คอสโม่บาร์ซ่า เมืองทอง
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219479 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 19.73 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Cosmo%20Muangthong&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2010.00-21.00&amp;tel=065-5219479&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.91219683%2C100.55214')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/7CTppEwqvpjqd8me9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Vatcharaphol</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.30-16.30 <br>เสาร์-อาทิตย์ 8.30-17.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ฝั่งตรงข้ามสำนักงานเขตสายไหม (หน้าหมู่บ้านเศรษฐสิริ)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 095-2838130 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 20.80 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Vatcharaphol&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.30-16.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.30-17.30&amp;tel=095-2838130&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.8956389%2C100.66025')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/W7mj9yeNLnvzWUZeA', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">MITR Market Donmueang</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 07:00 - 19:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ตลาดมิตรมาร์เก็ต <br> BTS แยกคปอ. ทางออก 3
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 065-5219795 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 22.56 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=MITR%20Market%20Donmueang&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2007%3A00%20-%2019%3A00&amp;tel=065-5219795&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.92843125%2C100.6248198')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('NULLhttps://maps.app.goo.gl/AFYbYbpEArXbXEoe9?g_st=ic', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Bangsean (Chon buri)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.30-16.30 <br>เสาร์-อาทิตย์ 8.30-17.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการวังมุขแลนด์ (ถนนลงหาดบางแสน)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 064-1109978 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 63.75 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Bangsean%20(Chon%20buri)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.30-16.30%20%3Cbr%2F%3E%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.30-17.30&amp;tel=064-1109978&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D13.2870278%2C100.9295278')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/PguuhibNB7CnYG6W9', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Ayothaya (Ayutthaya)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: โครงการ ซิตี้ เซ็นทรัล อยุธยา
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 092-2838491 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 66.74 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Ayothaya%20(Ayutthaya)&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-17.00&amp;tel=092-2838491&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D14.33372532%2C100.6056763')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/8SuWccRP62hGrZEc7?g_st=ic', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Pridi Bridge (Ayutthaya)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 07:00-17:00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ซอย คลองมะขามเรียง (ลงสะพานปรีดี ขวามือแยกแรก)
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 080-9421112 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 68.56 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Pridi%20Bridge%20(Ayutthaya)&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%2007%3A00-17%3A00&amp;tel=080-9421112&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D14.3514444%2C100.5751389')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/FBoFvkncisT1zCxC6', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Central Chiangrai (Chiang Rai)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 9.00-21.00 <br> เสาร์-อาทิตย์ 9.30-21.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: ชั้น G โซน Grand Hall
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 084-1366874 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 688.40 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Central%20Chiangrai%20(Chiang%20Rai)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%209.00-21.00%20%3Cbr%2F%3E%20%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%209.30-21.30&amp;tel=084-1366874&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D19.88677666%2C99.83475587')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/KyU15hkDgYsGtQw4A', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Hong Ya Thai (Chiang Rai)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 7.00-16.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: อยู่ใกล้โรงพยาบาลเชียงรายประชานุเคราะห์
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 063-6374041 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 690.09 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Hong%20Ya%20Thai%20(Chiang%20Rai)&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%207.00-16.00&amp;tel=063-6374041&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D19.90161646%2C99.83021925')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/mzUXvxnV9v3r9Kt87', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Warehouse (Chiang Rai)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: ทุกวัน 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 080-6844143 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 690.26 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Warehouse%20(Chiang%20Rai)&amp;openHours=%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99%208.00-17.00&amp;tel=080-6844143&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D19.90379608%2C99.83630912')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/3mhj1iFWA6La714C7', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Farmland (Chiang Rai)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.30-16.30 <br> เสาร์-อาทิตย์ 8.00-17.00</p>
+                                        <p class="text-gray-600 text-sm">
+                                            
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 085-5871457 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 690.45 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Farmland%20(Chiang%20Rai)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.30-16.30%20%3Cbr%2F%3E%20%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.00-17.00&amp;tel=085-5871457&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D19.90468468%2C99.8286619')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        
+                            <div class="relative flex items-center bg-white p-4 rounded-xl shadow-md border border-gray-300 w-full cursor-pointer hover:bg-gray-100" onclick="window.open('https://maps.app.goo.gl/437w1t8W4QF2aLLw5', '_blank')">
+                                <div class="flex items-center w-full">
+                                    <div class="flex flex-col items-center mr-4">
+                                        <i class="fas fa-store text-3xl"></i>
+                                    </div>
+                                    <div class="text-left flex-grow">
+                                        <p class="font-semibold text-md">Bandu (Chiang Rai)</p>
+                                        <p class="text-gray-500 text-sm">Open Hours: จันทร์-ศุกร์ 7.30-16.30 <br> เสาร์-อาทิตย์ 8.30-17.30</p>
+                                        <p class="text-gray-600 text-sm">
+                                            Zone: บ้านดู่
+                                        </p>
+                                         <p class="text-blue-600 text-sm">
+                                            Tel: 080-0096409 
+                                        </p>
+                                        <p class="text-green-600 text-md flex items-center"><i class="fas fa-map-marker-alt mr-1"></i>Distance: 697.66 km</p>
+                                    </div>
+                                </div>
+                                <button onclick="event.stopPropagation(); openPopup('popup.html?name=Bandu%20(Chiang%20Rai)&amp;openHours=%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%A8%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B9%8C%207.30-16.30%20%3Cbr%2F%3E%20%E0%B9%80%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%208.30-17.30&amp;tel=080-0096409&amp;map=https%3A%2F%2Fwww.google.com%2Fmaps%3Fq%3D19.97302995%2C99.85779863')" class="absolute right-4 bottom-4 text-gray-600 hover:text-gray-900 bg-gray-200 p-2 rounded-full shadow-sm">
+                                    <i class="fas fa-info-circle text-lg"></i>
+                                </button>
+                            </div>
+                        </div>
